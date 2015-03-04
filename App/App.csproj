@@ -60,9 +60,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Metodos\OvernightPackage.cs" />
-    <Compile Include="Metodos\Packege.cs" />
-    <Compile Include="Metodos\TwoDayPackage.cs" />
+    <Compile Include="Modelo\OvernightPackage.cs" />
+    <Compile Include="Modelo\Packege.cs" />
+    <Compile Include="Modelo\TwoDayPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
