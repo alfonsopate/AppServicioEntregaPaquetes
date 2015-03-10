@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Modelo\OvernightPackage.cs" />
     <Compile Include="Modelo\Packege.cs" />
+    <Compile Include="Modelo\Personas.cs" />
     <Compile Include="Modelo\TwoDayPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

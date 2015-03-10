@@ -8,6 +8,7 @@ namespace App.Modelo
 {
     public class OvernightPackage:Packege
     {
-        string 
+        string recargo;
+
     }
 }
