@@ -11,7 +11,7 @@ namespace App.Modelo
         private string direccion;
         private string ciudad;
         private string departamento;
-        private string codigopostalR;
-        private string codigopostalD;
+        private string codigopostal;
+        
     }
 }

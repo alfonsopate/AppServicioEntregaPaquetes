@@ -8,12 +8,8 @@ namespace App.Modelo
     public class Packege
     {
         private string codigo;
-        private string nombre;
-        private string direccion;
-        private string ciudad;
-        private string departamento;
-        private string codigopostalR;
-        private string codigopostalD;
+        private string datosremitente = Personas;
+        private string datosdestinaterio = Personas;
         private string peso_kg;
         private string costoenviogramos;
 
@@ -24,32 +20,24 @@ namespace App.Modelo
             set { codigo = value; }
         }
 
-        public string Nombre
+        public string Datosremitente
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return datosremitente; }
+            set { datosremitente = value; }
         }
 
-        public string Direccion
+        public string Datosdestinaterio
         {
-            get { return direccion; }
-            set { direccion = value; }
+            get { return datosdestinaterio; }
+            set { datosdestinaterio = value; }
         }
-        public string Departemento
+
+        public string Peso_kg
         {
-            get { return departamento; }
-            set { departamento = value; }
+            get { return peso_kg; }
+            set { peso_kg = value; }
         }
-        public string CodigopostalR
-        {
-            get { return codigopostalR; }
-            set { codigopostalR = value; }
-        }
-        public string CodigopostalD
-        {
-            get { return codigopostalD; }
-            set { codigopostalD = value; }
-        }
+       
         public string Costoenviogramos
         {
             get { return costoenviogramos; }
@@ -62,26 +50,17 @@ namespace App.Modelo
         public Packege ()
         {
             this.codigo = "000000";
-            this.nombre = "";
-            this.direccion = "kr00b#00-00";
-            this.ciudad = "";
-            this.departamento = "";
-            this.codigopostalR = "tt000t000";
-            this.codigopostalD = "tt000t000";
+            this.datosremitente = "";
+            this.datosdestinaterio = "";
             this.peso_kg = "000kg";
             this.costoenviogramos = "000";
         }
 
-            public Packege(string codigo, string nombre, string direccion, string cuidad, string departemento,
-                           string codigopostalR, string codigopostalD, string peso_kg, string costoenviogramos)
+            public Packege(string codigo, string datosremitente, string datosdestinatario,  string peso_kg, string costoenviogramos)
             {
                 this.codigo = codigo;
-                this.nombre = nombre;
-                this.direccion = direccion;
-                this.ciudad = cuidad;
-                this.departamento = departemento;
-                this.codigopostalR = codigopostalR;
-                this.codigopostalD = codigopostalD;
+                this.datosremitente = datosremitente;
+                this.datosdestinaterio = datosdestinaterio;      
                 this.peso_kg = peso_kg;
                 this.costoenviogramos = costoenviogramos;
             }
