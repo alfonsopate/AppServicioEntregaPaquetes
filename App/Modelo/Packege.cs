@@ -7,12 +7,14 @@ namespace App.Modelo
 {
     public class Packege
     {
+        #region "Atributos"
         private string codigo;
         private string datosremitente = Personas;
         private string datosdestinaterio = Personas;
         private string peso_kg;
         private string costoenviogramos;
 
+        #endregion
         #region "Propiedades"
         public string Codigo
         {
