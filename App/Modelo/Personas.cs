@@ -43,6 +43,7 @@ namespace App.Modelo
         }
         
         #endregion
+
          #region "Constructores"
 
         public Personas ()
@@ -68,6 +69,32 @@ namespace App.Modelo
                
             }
          #endregion
+
+            #region "Constructores"
+
+            public Personas()
+            {
+
+                this.nombre = "";
+                this.direccion = "kr00b#00-00";
+                this.ciudad = "";
+                this.departamento = "";
+                this.codigopostal = "tt000t000";
+
+            }
+
+            public Personas(string nombre, string direccion, string cuidad, string departemento,
+                           string codigopostal)
+            {
+
+                this.nombre = nombre;
+                this.direccion = direccion;
+                this.ciudad = cuidad;
+                this.departamento = departemento;
+                this.codigopostal = codigopostal;
+
+            }
+            #endregion
         
     }
 }

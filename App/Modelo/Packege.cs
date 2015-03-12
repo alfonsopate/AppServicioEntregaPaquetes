@@ -72,12 +72,8 @@ namespace App.Modelo
             {
                 return "\n=============================================\n" +
                          "Codigo:  " + this.codigo+ "\n" +
-                         "Nombres:  " + this.nombre + "\n" +
-                         "Direccion:  " + this.direccion + "\n" +
-                         "Ciudad:" + this.ciudad + "\n" +
-                         "Departemento:" + this.departamento+ "\n" +
-                         " Codigo postalR:" + this.codigopostalR + "\n" +
-                         "Codigo postal des:" + this.codigopostalD + "\n"+
+                         "datosremitente:  " + this.datosremitente + "\n" +
+                         "datosdestinatario:  " + this.datosdestinatario+ "\n" +
                          "Peso kg" + this.peso_kg + "\n"+ 
                          "Costa envio aquetes" + this.costoenviogramos;
             }
